@@ -14,9 +14,9 @@ const Layout = ({ children }: Props) => {
   }, []);
 
   return (
-    <div className={`flex justify-center ${theme === "dark" && "bg-black"} `}>
+    <div className={`flex justify-center ${theme === "dark" && "bg-black"}`}>
       <div
-        className={`w-4/5 flex flex-col ${
+        className={`w-4/5 flex flex-col p-2 ${
           theme === "light" ? "bg-minimal-white" : "bg-minimal-black"
         }`}>
         <Header />

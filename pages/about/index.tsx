@@ -1,16 +1,17 @@
 import { Layout } from "@/components/Layout";
+import { AboutInfo } from "@/components/_about/info";
 import { useEffect } from "react";
 
 const About = () => {
   return (
-    <div>
-      <div className="text-lg">About Page</div>
+    <div className="flex flex-col">
+      <div className="flex flex-row">
+        <div>
+          <AboutInfo />
+        </div>
+      </div>
     </div>
   );
 };
 
 export default About;
-
-// export const getLayout = (page: React.ReactNode) => {
-//   return <Layout>{page}</Layout>;
-// };

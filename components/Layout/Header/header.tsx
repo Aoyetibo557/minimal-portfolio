@@ -7,7 +7,7 @@ const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <div className="p-3 flex flex-row items-center justify-between">
+    <div className="p-4 h-30 flex flex-row items-center justify-between">
       <div className="text-lg ">
         <Image
           src="/images/next.svg"
