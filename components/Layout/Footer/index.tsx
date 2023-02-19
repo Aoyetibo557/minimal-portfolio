@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../constexts/themeconstext";
 import FooterNavbar from "./footerNavbar";
 
 const Footer = () => {
+  const { theme } = useContext(ThemeContext);
   return (
-    <div className="flex flex-row justify-between items-center border-t-[1px] border-nuetral-900">
+    <div
+      className={`h-40 flex flex-row justify-between items-center border-t-[1px] ${
+        theme === "light" ? "border-nuetral-900" : "border-neutral-800"
+      }`}>
       <div>
         <FooterNavbar />
       </div>

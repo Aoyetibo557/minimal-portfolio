@@ -10,7 +10,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Inter", "sans-serif"],
+      sans: ["Inter", "sans-serif", "Gloock"],
     },
     extend: {
       fontSize: {
@@ -32,7 +32,9 @@ module.exports = {
         "minimal-blue": "#1E53AF",
         "minimal-white": "#FFFFFF",
         "light-white": "#FFF6F6",
-        "light-red": "rgba(229, 69, 61, 0.26)",
+        "alt-red": "#5A4D60",
+        "alt-blue": "#AE00FF",
+        "alt-pink": "#AA67C9",
       },
     },
   },

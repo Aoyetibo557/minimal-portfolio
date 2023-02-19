@@ -15,6 +15,8 @@ export const Skills = {
   JQUERY: "jQuery",
   "C++": "C++",
   JAVA: "Java",
+  NEXTJS: "NextJS",
+  TAILWINDCSS: "TailwindCSS",
 };
 
 interface Skills {
@@ -25,34 +27,39 @@ interface Skills {
 export const skillsarray: Skills[] = [
   {
     title: Skills.TYPESCRIPT,
-    // image: "typescript.png",
+    image: "/images/typescript.png",
   },
   {
     title: Skills.REACT,
-    // image: "react.png",
+    image: "/images/atom.png",
   },
   {
-    title: Skills.ANGULAR,
-    // image: "angular.png",
+    title: Skills.NEXTJS,
+    image: "/images/vercel.svg",
+  },
+  {
+    title: Skills.NODEJS,
+    image: "/images/nodejs.png",
+  },
+  {
+    title: Skills.GRAPHQL,
+    image: "/images/vercel.svg",
+  },
+  {
+    title: Skills.TAILWINDCSS,
+    image: "/images/vercel.svg",
+  },
+  {
+    title: Skills.MYSQL,
+    image: "/images/datamodelling.png",
   },
   {
     title: Skills.JAVASCRIPT,
-    // image: "javascript.png",
+    image: "/images/java-script.png",
   },
+
   {
-    title: Skills.HTML,
-    // image: "html.png",
-  },
-  {
-    title: Skills.CSS,
-    // image: "css.png",
-  },
-  {
-    title: Skills.SASS,
-    // image: "sass.png",
-  },
-  {
-    title: Skills.EXPRESS,
-    // image: "graphql.png",
+    title: Skills.GIT,
+    image: "/images/gitlab.png",
   },
 ];

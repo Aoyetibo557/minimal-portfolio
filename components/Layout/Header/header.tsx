@@ -10,11 +10,11 @@ const Header = () => {
     <div className="p-4 h-30 flex flex-row items-center justify-between">
       <div className="text-lg ">
         <Image
-          src="/images/next.svg"
+          src="/images/avatarimage.jpg"
           alt="logo"
-          width={90}
-          height={90}
-          className="border-neutral-900 bg-gray-300 border-2 rounded-md p-2"
+          width={60}
+          height={60}
+          className="border-[1px] rounded-full"
         />
       </div>
       <div>
