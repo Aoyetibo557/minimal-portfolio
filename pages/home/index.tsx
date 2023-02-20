@@ -5,7 +5,6 @@ import Image from "next/image";
 import { WorkBox } from "@/components/_work/workbox";
 import { workhistory } from "@/const/work";
 import { ContactBox } from "@/components/_contact/contactbox";
-
 import { CommentList } from "@/components/_comments/commentlist";
 import { commentlist } from "@/const/comment";
 
@@ -85,7 +84,7 @@ const Home = () => {
 
       <div className="grid grid-cols-4 gap-5 mt-4">
         <Image
-          src="/static/images/imageFour.jpg"
+          src={"/static/images/imageFour.jpg"}
           alt="logo"
           width={300}
           height={300}
@@ -93,7 +92,7 @@ const Home = () => {
         />
 
         <Image
-          src="/static/images/imageNine.JPG"
+          src={"/static/images/imageNine.JPG"}
           alt="logo"
           width={300}
           height={300}
@@ -101,7 +100,7 @@ const Home = () => {
         />
 
         <Image
-          src="/static/images/imageThree.JPG"
+          src={"/static/images/imageThree.JPG"}
           alt="logo"
           width={200}
           height={200}
@@ -109,7 +108,7 @@ const Home = () => {
         />
 
         <Image
-          src="/static/images/imageFive.jpg"
+          src={"/static/images/imageFive.jpg"}
           alt="logo"
           width={200}
           height={200}
