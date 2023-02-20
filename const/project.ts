@@ -30,7 +30,7 @@ export const projects: Project[] = [
     title: "Rock Paper Scissors",
     description:
       "A simple rock paper scissors game that uses the DOM to generate random moves.",
-    image: "/static/images/aboutImage.jpg",
+    image: "/static/images/rock.png",
     link: "",
     github: "https://github.com/Aoyetibo557/Rock-Paper-Scissors",
     tech: ["HTML", "CSS", "JAVASCRIPT"],
