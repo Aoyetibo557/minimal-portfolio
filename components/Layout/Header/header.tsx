@@ -12,7 +12,7 @@ const Header = () => {
       <div className="text-lg ">
         <Link href={"/home"}>
           <Image
-            src="/images/avatarimage.jpg"
+            src="/static/images/avatarimage.JPG"
             alt="logo"
             width={60}
             height={60}

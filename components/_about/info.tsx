@@ -66,7 +66,7 @@ export const AboutInfo = () => {
       <div className="flex flex-col gap-10">
         <div>
           <Image
-            src="/images/aboutImage.jpg"
+            src="/static/images/aboutImage.JPG"
             width={400}
             height={400}
             alt={""}
