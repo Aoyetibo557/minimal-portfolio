@@ -65,7 +65,7 @@ export const SocialLink = (props: Props) => {
           {getIcon()}
         </span>
         <span
-          className={` text-sm font-medium ${
+          className={`mukta-font text-base font-medium ${
             props.theme === "light"
               ? "text-minimal-black hover:text-neutral-400"
               : "text-neutral-200 hover:text-neutral-400"

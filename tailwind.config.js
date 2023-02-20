@@ -10,7 +10,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Inter", "sans-serif", "Gloock"],
+      sans: ["Inter", "sans-serif", "Gloock", "Mukta"],
     },
     extend: {
       fontSize: {

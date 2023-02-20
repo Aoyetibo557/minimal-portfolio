@@ -14,9 +14,9 @@ export const MenuItem = (props: MenuItemProps) => {
     <Link href={props.url}>
       <div
         className={`
-        flex mx-2 font-light text-sm cursor-pointer py-2 px-3
+        flex mx-2 font-light text-base cursor-pointer py-2 px-3
         transition-all ease-in-out
-        hover:text-neutral-300
+        hover:text-neutral-300 mukta-font
         ${props.isActive && "text-light-black"}
         ${props.theme === "light" ? "text-neutral-500" : "text-minimal-white"}
       `}>

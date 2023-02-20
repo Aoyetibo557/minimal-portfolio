@@ -9,8 +9,10 @@ type Props = {
 const Skill = (props: Props) => {
   return (
     <div
-      className={`w-full flex flex-row items-center space-x-2 p-1 cursor-pointer rounded-sm ${
-        props.theme === "light" ? "hover:bg-gray-100" : "hover:bg-neutral-800"
+      className={`font-light mukta-font w-full flex flex-row items-center space-x-2 p-1 cursor-pointer rounded-sm ${
+        props.theme === "light"
+          ? "text-neutral-600 hover:bg-gray-100 hover:text-neutral-900"
+          : "text-neutral-400 hover:bg-neutral-800 hover:text-neutral-100"
       }`}>
       {props.image && (
         <Image
@@ -21,12 +23,7 @@ const Skill = (props: Props) => {
           className="p-1"
         />
       )}
-      <div
-        className={`text-sm ${
-          props.theme === "light" ? "text-neutral-500" : "text-minimal-white"
-        }}`}>
-        {props.title}
-      </div>
+      <div>{props.title}</div>
     </div>
   );
 };

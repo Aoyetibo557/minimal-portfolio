@@ -1,0 +1,65 @@
+import Image from "next/image";
+import { BsLink45Deg } from "react-icons/bs";
+
+type Props = {
+  title: string;
+  description: string;
+  image: string;
+  link?: string;
+  github: string;
+  tech?: string[];
+  theme: string;
+};
+
+export const ProjectCard = (props: Props) => {
+  return (
+    <a
+      href={props.github}
+      target="_blank"
+      rel="noreferrer"
+      className={`flex p-5 cursor-pointer rounded-xl flex-col justify-between h-full
+      ${
+        props.theme === "light"
+          ? "hover:bg-light-white"
+          : "hover:bg-neutral-800"
+      }
+    `}>
+      <div>
+        <Image
+          src={props.image}
+          alt={props.title}
+          width={40}
+          height={40}
+          // className="rounded-full border-[0.5px] border-gray-200"
+        />
+      </div>
+      <div className="mt-5">
+        <div
+          className={`mukta-font font-medium text-lg ${
+            props.theme === "light" ? "text-neutral-700" : "text-neutral-200"
+          }`}>
+          {props.title}
+        </div>
+      </div>
+      <div className="mt-5">
+        <div
+          className={`mukta-font font-light text-base ${
+            props.theme === "light" ? "text-neutral-700" : "text-neutral-400"
+          }`}>
+          {props.description}
+        </div>
+      </div>
+      <div className="mt-5">
+        <div
+          className={`font-medium text-base mukta-font ${
+            props.theme === "light"
+              ? "text-neutral-500 hover:text-neutral-800"
+              : "text-neutral-400 hover:text-neutral-100"
+          }`}>
+          <BsLink45Deg className={`inline-block mr-2`} />
+          <span>github.com</span>
+        </div>
+      </div>
+    </a>
+  );
+};

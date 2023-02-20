@@ -6,7 +6,7 @@ const Footer = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <div
-      className={`h-40 flex flex-row justify-between items-center border-t-[1px] ${
+      className={`h-36 flex flex-row justify-between items-center border-t-[1px] p-10 ${
         theme === "light" ? "border-nuetral-900" : "border-neutral-800"
       }`}>
       <div>

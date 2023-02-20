@@ -13,12 +13,12 @@ export const AboutInfo = () => {
   return (
     <div className="flex flex-row p-4 justify-evenly gap-10">
       <div
-        className={`w-2/5 flex flex-col space-y-10  ${
+        className={`w-2/4 flex flex-col space-y-10  ${
           theme === "light" ? "bg-minimal-white" : "bg-minimal-black"
         }`}>
         <div
-          className={`text-2xl font-medium ${
-            theme === "light" ? "text-neutral-900" : "text-neutral-100"
+          className={`mukta-font text-2xl font-semibold ${
+            theme === "light" ? "text-neutral-900" : "text-neutral-200"
           }`}>
           <span className={`text-5xl`}>👋🏽</span> Hi, I'm{" "}
           <span className="gloock-font text-alt-blue text-3xl font-bold">
@@ -32,13 +32,16 @@ export const AboutInfo = () => {
         </div>
 
         <div
-          className={` text-base font-light ${
-            theme === "light" ? "text-neutral-900" : "text-neutral-100"
+          className={` mukta-font text-lg font-light ${
+            theme === "light" ? "text-neutral-900" : "text-neutral-400"
           }`}>
           I've loved building things for as long as I can remember. My passion
           for building things has led me to a career in software engineering. My
           most recent role was as a Full stack Developer Associate at{" "}
-          <span className={`text-alt-blue gloock-font text-lg font-semibold `}>
+          <span
+            className={` ${
+              theme === "light" ? "text-neutral-800" : "text-minimal-white"
+            } mukta-font text-lg font-semibold `}>
             <a href="https://www.certik.com/" target="_blank">
               CertiK
             </a>
@@ -49,8 +52,9 @@ export const AboutInfo = () => {
         </div>
 
         <div
-          className={`mb-4 text-base font-light
-medium ${theme === "light" ? "text-neutral-900" : "text-neutral-100"}
+          className={`mb-4 text-lg font-light mukta-font ${
+            theme === "light" ? "text-neutral-900" : "text-neutral-100"
+          }
         `}>
           Here are a few technologies I've been working with recently:
           <div className="mt-10">

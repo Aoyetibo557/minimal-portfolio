@@ -35,7 +35,7 @@ export const skillsarray: Skills[] = [
   },
   {
     title: Skills.NEXTJS,
-    image: "/images/vercel.svg",
+    image: "/images/next.svg",
   },
   {
     title: Skills.NODEJS,
@@ -43,11 +43,11 @@ export const skillsarray: Skills[] = [
   },
   {
     title: Skills.GRAPHQL,
-    image: "/images/vercel.svg",
+    image: "/images/graphql.png",
   },
   {
     title: Skills.TAILWINDCSS,
-    image: "/images/vercel.svg",
+    image: "/images/tailwind.png",
   },
   {
     title: Skills.MYSQL,
