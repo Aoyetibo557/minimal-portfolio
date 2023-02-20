@@ -21,7 +21,7 @@ const FooterNavbar = () => {
         theme={theme}
         isActive={path.includes("projects")}
       />
-      <MenuItem
+      {/* <MenuItem
         url="/resume"
         title="Resume"
         theme={theme}
@@ -32,7 +32,7 @@ const FooterNavbar = () => {
         title="photography"
         theme={theme}
         isActive={path.includes("photography")}
-      />
+      /> */}
     </div>
   );
 };
