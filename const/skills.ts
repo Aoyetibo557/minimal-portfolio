@@ -27,39 +27,39 @@ interface Skills {
 export const skillsarray: Skills[] = [
   {
     title: Skills.TYPESCRIPT,
-    image: "/images/typescript.png",
+    image: "/static/images/typescript.png",
   },
   {
     title: Skills.REACT,
-    image: "/images/atom.png",
+    image: "/static/images/atom.png",
   },
   {
     title: Skills.NEXTJS,
-    image: "/images/next.svg",
+    image: "/static/images/next.svg",
   },
   {
     title: Skills.NODEJS,
-    image: "/images/nodejs.png",
+    image: "/static/images/nodejs.png",
   },
   {
     title: Skills.GRAPHQL,
-    image: "/images/graphql.png",
+    image: "/static/images/graphql.png",
   },
   {
     title: Skills.TAILWINDCSS,
-    image: "/images/tailwind.png",
+    image: "/static/images/tailwind.png",
   },
   {
     title: Skills.MYSQL,
-    image: "/images/datamodelling.png",
+    image: "/static/images/datamodelling.png",
   },
   {
     title: Skills.JAVASCRIPT,
-    image: "/images/java-script.png",
+    image: "/static/images/java-script.png",
   },
 
   {
     title: Skills.GIT,
-    image: "/images/gitlab.png",
+    image: "/static/images/gitlab.png",
   },
 ];
