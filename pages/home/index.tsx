@@ -85,7 +85,7 @@ const Home = () => {
 
       <div className="grid grid-cols-4 gap-5 mt-4">
         <Image
-          src="/images/imageFour.jpg"
+          src="/static/images/imageFour.jpg"
           alt="logo"
           width={300}
           height={300}
@@ -93,7 +93,7 @@ const Home = () => {
         />
 
         <Image
-          src="/images/imageNine.jpg"
+          src="/static/images/imageNine.JPG"
           alt="logo"
           width={300}
           height={300}
@@ -101,7 +101,7 @@ const Home = () => {
         />
 
         <Image
-          src="/images/imageThree.jpg"
+          src="/static/images/imageThree.JPG"
           alt="logo"
           width={200}
           height={200}
@@ -109,7 +109,7 @@ const Home = () => {
         />
 
         <Image
-          src="/images/imageFive.jpg"
+          src="/static/images/imageFive.jpg"
           alt="logo"
           width={200}
           height={200}
