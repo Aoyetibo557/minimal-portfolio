@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div>
+      <div className="p-5">
         <ProjectGrid projects={projects} theme={theme} />
       </div>
     </div>
