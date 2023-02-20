@@ -27,10 +27,9 @@ const Home = () => {
           ${theme === "light" ? "text-neutral-700" : "text-neutral-400"}
         
         `}>
-          I'm Anuoluwapo, asoftware developer based in New York City. I'm
-          currently looking for new opportunities. I'm a fullstack developer
-          with a passion for building beautiful and functional web applications.
-          I'm also a musician; piano and guitar, photographer and amateur gamer.
+          {
+            "I'm Anuoluwapo, asoftware developer based in New York City. I'm currently looking for new opportunities. I'm a fullstack developer with a passion for building beautiful and functional web applications. I'm also a musician; piano and guitar, photographer and amateur gamer."
+          }
         </span>
 
         <div className="flex flex-row gap-8 mt-3">

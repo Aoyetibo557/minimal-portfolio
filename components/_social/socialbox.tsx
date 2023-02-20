@@ -16,8 +16,9 @@ interface SocialLink {
 const SocialBox = ({ socials, theme }: Props) => {
   return (
     <div className="flex flex-col gap-5">
-      {socials.map((social) => (
+      {socials.map((social, index) => (
         <SocialLink
+          key={index}
           href={social.href}
           icon={social.icon}
           text={social.text}

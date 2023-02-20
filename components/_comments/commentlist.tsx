@@ -24,8 +24,8 @@ export const CommentList = ({ theme, comments }: Props) => {
         Recommendations from my co-workers and colleagues
       </div> */}
       <div>
-        {comments.map((comment) => (
-          <Comment {...comment} theme={theme} />
+        {comments.map((comment, index) => (
+          <Comment key={index} {...comment} theme={theme} />
         ))}
       </div>
     </div>

@@ -34,8 +34,8 @@ export const WorkBox = ({ theme, worklist }: Props) => {
           Work{" "}
         </span>
       </div>
-      {worklist.map((work) => (
-        <Work {...work} theme={theme} />
+      {worklist.map((work, index) => (
+        <Work key={index} {...work} theme={theme} />
       ))}
       <div className="flex flex-row items-center justify-center">
         <button

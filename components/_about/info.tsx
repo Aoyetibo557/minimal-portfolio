@@ -42,7 +42,7 @@ export const AboutInfo = () => {
             className={` ${
               theme === "light" ? "text-neutral-800" : "text-minimal-white"
             } mukta-font text-lg font-semibold `}>
-            <a href="https://www.certik.com/" target="_blank">
+            <a href="https://www.certik.com/" target="_blank" rel="noreferrer">
               CertiK
             </a>
           </span>{" "}
