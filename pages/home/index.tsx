@@ -84,29 +84,37 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" flex flex-row gap-5 mt-4">
+      <div className="grid grid-cols-4 gap-5 mt-4">
         <Image
-          src="/images/avatarimage.jpg"
+          src="/images/imageFour.jpg"
           alt="logo"
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           className="rounded-md rotate-3"
         />
 
         <Image
-          src="/images/avatarimage.jpg"
+          src="/images/imageNine.jpg"
           alt="logo"
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           className="rounded-md rotate-0"
         />
 
         <Image
-          src="/images/avatarimage.jpg"
+          src="/images/imageThree.jpg"
           alt="logo"
-          width={400}
-          height={400}
+          width={200}
+          height={200}
           className="rounded-md rotate-6"
+        />
+
+        <Image
+          src="/images/imageFive.jpg"
+          alt="logo"
+          width={200}
+          height={200}
+          className="rounded-md "
         />
       </div>
 

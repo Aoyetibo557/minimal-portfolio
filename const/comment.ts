@@ -9,23 +9,23 @@ interface Comment {
 export const commentlist: Comment[] = [
   {
     image: "/images/js.png",
-    name: "Eitan Prince",
+    name: "",
     comment:
-      "Anu is one of the best developers I have ever worked with. He is very professional and has a great attitude. He is very knowledgeable and has a great work ethic. I would highly recommend her for any project.",
+      "He has a great attitude and openness that makes him easily one of the finest developers i've had the pleasure of working with. I would highly recommend her for any project.",
     date: "Febuary 22, 2023",
   },
   {
     image: "/images/js.png",
-    name: "Eitan Prince",
+    name: "Subomi Olaifa",
     comment:
-      "Anu is one of the best developers I have ever worked with. He is very professional and has a great attitude. He is very knowledgeable and has a great work ethic. I would highly recommend her for any project.",
+      "His attention to detail is very encouraging and his go getter attitude is very inspiring. He is always willing and ready to help out.",
     date: "January 14, 2023",
   },
   {
     image: "/images/js.png",
-    name: "Eitan Prince",
+    name: "Anonymous",
     comment:
-      "Anu is one of the best developers I have ever worked with. He is very professional and has a great attitude. He is very knowledgeable and has a great work ethic. I would highly recommend her for any project.",
+      "He shows a lot of initiative and is always willing to learn new things. His always meets his deadlines and is very reliable. 5 stars .",
     date: "November 25, 2022",
   },
 ];
