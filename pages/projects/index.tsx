@@ -6,7 +6,7 @@ import { useContext } from "react";
 const Projects = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className="mt-5 pl-20 p-4 h-full">
+    <div className="mt-5 pl-20 p-4 h-90">
       <div>
         <div
           className={`w-3/4 font-extrabold text-4xl 

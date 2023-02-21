@@ -23,7 +23,7 @@ const Header = () => {
       <div>
         <Navbar />
       </div>
-      <div className="">
+      <div className="flex flex-row items-center gap-4">
         <button className="text-base font-light" onClick={toggleTheme}>
           {theme === "light" ? (
             <BsMoon className="bg-neutral-200 text-neutral-900 p-2 rounded-md w-10 h-10" />

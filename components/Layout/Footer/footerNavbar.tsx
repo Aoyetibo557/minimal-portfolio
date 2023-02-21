@@ -10,6 +10,13 @@ const FooterNavbar = () => {
   return (
     <div className="flex flex-row space-x-2">
       <MenuItem
+        url="/home"
+        title="Resume"
+        theme={theme}
+        isActive={path.includes("home")}
+      />
+
+      <MenuItem
         url="/about"
         title="About"
         theme={theme}
@@ -21,18 +28,6 @@ const FooterNavbar = () => {
         theme={theme}
         isActive={path.includes("projects")}
       />
-      {/* <MenuItem
-        url="/resume"
-        title="Resume"
-        theme={theme}
-        isActive={path.includes("resume")}
-      />
-      <MenuItem
-        url="/photography"
-        title="photography"
-        theme={theme}
-        isActive={path.includes("photography")}
-      /> */}
     </div>
   );
 };

@@ -11,7 +11,7 @@ export const commentlist: Comment[] = [
     image: "/static/images/js.png",
     name: "",
     comment:
-      "He has a great attitude and openness that makes him easily one of the finest developers i've had the pleasure of working with. I would highly recommend her for any project.",
+      "He has a great attitude and openness that makes him easily one of the finest developers i've had the pleasure of working with. I would highly recommend him for any project.",
     date: "Febuary 22, 2023",
   },
   {

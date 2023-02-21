@@ -13,7 +13,13 @@ const Navbar = () => {
         theme === "light"
           ? "shadow-white bg-minimal-white"
           : "shadow-black bg-light-black"
-      } flex flex-row items-center drop-shadow-md  border-neutral-400 rounded-full `}>
+      } flex flex-row items-center drop-shadow-md border-neutral-400 rounded-full `}>
+      <MenuItem
+        url="/home"
+        title="Resume"
+        theme={theme}
+        isActive={path.includes("home")}
+      />
       <MenuItem
         url="/about"
         title="About"
@@ -26,18 +32,6 @@ const Navbar = () => {
         theme={theme}
         isActive={path.includes("projects")}
       />
-      {/* <MenuItem
-        url="/resume"
-        title="Resume"
-        theme={theme}
-        isActive={path.includes("resume")}
-      />
-      <MenuItem
-        url="/photography"
-        title="photography"
-        theme={theme}
-        isActive={path.includes("photography")}
-      /> */}
     </div>
   );
 };

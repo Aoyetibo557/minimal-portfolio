@@ -35,4 +35,13 @@ export const projects: Project[] = [
     github: "https://github.com/Aoyetibo557/Rock-Paper-Scissors",
     tech: ["HTML", "CSS", "JAVASCRIPT"],
   },
+
+  {
+    title: "African Marketplace",
+    description: "A web store for an african market/shop.",
+    image: "/static/images/shop.png",
+    link: "",
+    github: "https://github.com/Aoyetibo557/foody-web-app",
+    tech: ["React", "CSS", "JAVASCRIPT"],
+  },
 ];

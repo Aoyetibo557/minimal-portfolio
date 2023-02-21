@@ -7,11 +7,12 @@ type MenuItemProps = {
   isDropdown?: boolean;
   dropdownItems?: MenuItemProps[];
   theme: "light" | "dark";
+  onClick?: () => void;
 };
 
 export const MenuItem = (props: MenuItemProps) => {
   return (
-    <Link href={props.url}>
+    <Link onClick={props.onClick} href={props.url}>
       <div
         className={`
         flex mx-2 font-light text-base cursor-pointer py-2 px-3
