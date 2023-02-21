@@ -25,7 +25,7 @@ export const commentlist: Comment[] = [
     image: "/static/images/js.png",
     name: "Anonymous",
     comment:
-      "He shows a lot of initiative and is always willing to learn new things. His always meets his deadlines and is very reliable. 5 stars .",
+      "He shows a lot of initiative and is always willing to learn new things. He always meets his deadlines and communicates changes to schedule if there is a need.",
     date: "November 25, 2022",
   },
 ];

@@ -21,10 +21,10 @@ const Projects = () => {
           ${theme === "light" ? "text-neutral-900" : "text-neutral-400"}
         `}>
           I've worked on tons of projects over the years but these are the ones
-          that I'm most proud of. If see something that piques your interest,
-          feel free to click on it and play around. The code and live link is
-          also available on my Github, check out the code and please reach out
-          if you have any ideas for how it can be improved.
+          that I'm most proud of. If you see something that piques your
+          interest, feel free to click on it and play around. The code and live
+          link is also available on my Github, check out the code and please
+          reach out if you have any ideas for how it can be improved.
         </div>
       </div>
 
