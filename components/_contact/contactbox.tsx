@@ -35,7 +35,7 @@ export const ContactBox = ({ theme }: Props) => {
       </div>
 
       <div
-        className={`mukta-font font-light text-base
+        className={`mukta-font font-light text-base contact-text
         ${theme === "light" ? "text-neutral-700" : "text-neutral-400"}
       `}>
         Just can't get enough of me? Send me an email and I'll get back to you
@@ -45,7 +45,7 @@ export const ContactBox = ({ theme }: Props) => {
       <div>
         <a
           href="mailto:aoyetibo@gmail.com"
-          className={`font-bold mukta-font text-base p-1 ${
+          className={`font-bold mukta-font text-base p-1 contact-text ${
             theme === "light"
               ? "text-neutral-500 hover:text-neutral-600  hover:border-[0.5px] hover:rounded-lg"
               : "text-neutral-400 hover:text-neutral-200 hover:border-[0.5px] hover:rounded-lg"

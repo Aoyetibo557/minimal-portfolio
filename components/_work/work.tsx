@@ -40,7 +40,7 @@ export const Work = (props: WorkProps) => {
       </div>
 
       <div
-        className={`font-light mukta-font text-base
+        className={`font-light mukta-font text-base work-date
           ${props.theme === "light" ? "text-neutral-800" : "text-neutral-200"}
         `}>
         {props.date}

@@ -11,10 +11,10 @@ import { commentlist } from "@/const/comment";
 const Home = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className="flex flex-col gap-10 pl-20 p-5">
-      <div className="flex flex-col gap-5 w-3/4">
+    <div className="flex flex-col gap-10 pl-20 p-5 homepage">
+      <div className="flex flex-col gap-5 w-3/4 responsive-home">
         <span
-          className={`text-5xl font-bold mukta-font
+          className={`homepage-h2 text-5xl font-bold mukta-font
           ${theme === "light" ? "text-neutral-900" : "text-neutral-200"}
         `}>
           Fullstack Developer, Tech Enthusiast, Musician, Photographer and
@@ -22,7 +22,7 @@ const Home = () => {
         </span>
 
         <span
-          className={`text-lg font-light mukta-font
+          className={`homepage-h3 text-lg font-light mukta-font
           ${theme === "light" ? "text-neutral-700" : "text-neutral-400"}
         
         `}>
@@ -41,7 +41,7 @@ const Home = () => {
             }
           `}
             href="https://www.twitter.com">
-            <BsTwitter className="w-4 h-4" />
+            <BsTwitter className="w-4 h-4 " />
           </a>
 
           <a
@@ -82,13 +82,13 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-5 mt-4">
+      <div className="grid grid-cols-4 gap-5 mt-4 homepage-image-container">
         <Image
           src={"/static/images/imageFour.jpg"}
           alt="logo"
           width={300}
           height={300}
-          className="rounded-md rotate-3"
+          className="rounded-md rotate-3 homepage-image"
         />
 
         <Image
@@ -96,7 +96,7 @@ const Home = () => {
           alt="logo"
           width={300}
           height={300}
-          className="rounded-md rotate-0"
+          className="rounded-md rotate-0 homepage-image"
         />
 
         <Image
@@ -104,7 +104,7 @@ const Home = () => {
           alt="logo"
           width={200}
           height={200}
-          className="rounded-md rotate-6"
+          className="rounded-md rotate-6 homepage-image"
         />
 
         <Image
@@ -112,12 +112,12 @@ const Home = () => {
           alt="logo"
           width={200}
           height={200}
-          className="rounded-md "
+          className="rounded-md homepage-image "
         />
       </div>
 
-      <div className="flex flex-row gap-10 justify-between">
-        <div className="w-3/4">
+      <div className="flex flex-row gap-10 justify-between homepage-bottom">
+        <div className="w-3/4 homepage-comments">
           <CommentList comments={commentlist} theme={theme} />
         </div>
         <div className="flex flex-col gap-10">
