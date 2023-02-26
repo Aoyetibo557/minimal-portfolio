@@ -1,13 +1,30 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { ThemeContext } from "@/components/Layout/constexts/themeconstext";
 import SkillsGrid from "../_skills/skillsgrid";
 import { skillsarray } from "@/const/skills";
 import Image from "next/image";
 import SocialBox from "../_social/socialbox";
 import { socialLinks } from "@/const/social";
+import useKonamiCode from "../Utility/_konami/util";
+import { useRouter } from "next/router";
 
 export const AboutInfo = () => {
+  const router = useRouter();
   const { theme } = useContext(ThemeContext);
+  const [secretUnlocked, setSecretUnlocked] = useState(false);
+
+  useKonamiCode(() => {
+    setSecretUnlocked(true);
+  });
+
+  // use a useEffect to reroute to a secret page
+  useEffect(() => {
+    if (secretUnlocked) {
+      router.push(
+        `/secret?key=${process.env.NEXT_PUBLIC_MY_SECRET_KEY}&unlocked=${secretUnlocked}`
+      );
+    }
+  }, [secretUnlocked, router]);
 
   return (
     <div className="flex flex-col p-4 justify-evenly gap-5 ">

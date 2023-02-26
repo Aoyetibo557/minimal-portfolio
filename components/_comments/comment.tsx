@@ -11,12 +11,8 @@ type Props = {
 export const Comment = ({ theme, image, name, comment, date }: Props) => {
   return (
     <div
-      className={`flex flex-col gap-4 rounded-xl p-4 w-4/5
-    ${
-      theme === "light"
-        ? "text-neutral-800 hover:bg-light-white hover:text-neutral-800"
-        : "text-neutral-200 hover:bg-neutral-800 hover:text-neutral-200"
-    }
+      className={`flex flex-col gap-4 rounded-xl p-4 w-4/5 comment-box
+    ${theme === "light" ? "text-neutral-800" : "text-neutral-200"}
     `}>
       <div className="">
         <div
@@ -35,7 +31,7 @@ export const Comment = ({ theme, image, name, comment, date }: Props) => {
         </div>
       </div>
       <div
-        className={`font-light mukta-font text-base ${
+        className={`font-light mukta-font text-base comment-p ${
           theme === "light" ? "text-neutral-800" : "text-neutral-200"
         }
       `}>

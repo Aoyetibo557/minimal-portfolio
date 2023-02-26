@@ -1,0 +1,33 @@
+import useKonamiCode from "@/components/Utility/_konami/util";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+
+const SecretPage = () => {
+  const router = useRouter();
+  const [secretUnlocked, setSecretUnlocked] = useState(false);
+  const { key, unlocked } = router.query;
+
+  useKonamiCode(() => {
+    setSecretUnlocked(true);
+  });
+
+  useEffect(() => {
+    if (key !== process.env.NEXT_PUBLIC_MY_SECRET_KEY || !unlocked) {
+      router.push("/");
+    }
+  }, [key, router]);
+
+  return unlocked || secretUnlocked ? (
+    <div>
+      <h1>Secret Page</h1>
+      <div>You can view this page</div>
+    </div>
+  ) : (
+    <div>
+      <h1>Secret Page</h1>
+      <div>You can't view this page</div>
+    </div>
+  );
+};
+
+export default SecretPage;
