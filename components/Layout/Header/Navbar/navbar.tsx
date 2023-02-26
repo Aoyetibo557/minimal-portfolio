@@ -9,7 +9,7 @@ const Navbar = () => {
   const path = router.pathname.toLowerCase();
   return (
     <div
-      className={`${
+      className={`navbar ${
         theme === "light"
           ? "shadow-white bg-minimal-white"
           : "shadow-black bg-light-black"
