@@ -8,7 +8,7 @@ import { socialLinks } from "@/const/social";
 import useKonamiCode from "../Utility/_konami/util";
 import { useRouter } from "next/router";
 
-const MY_SECRET_KEY = "my_secret_key_3878982";
+// const MY_SECRET_KEY = "my_secret_key_3878982";
 
 export const AboutInfo = () => {
   const router = useRouter();
@@ -22,7 +22,9 @@ export const AboutInfo = () => {
   // use a useEffect to reroute to a secret page
   useEffect(() => {
     if (secretUnlocked) {
-      router.push(`/secret?key=${MY_SECRET_KEY}&unlocked=${secretUnlocked}`);
+      router.push(
+        `/secret?key=${process.env.NEXT_PUBLIC_MY_SECRET_KEY}&unlocked=${secretUnlocked}`
+      );
     }
   }, [secretUnlocked, router]);
 
