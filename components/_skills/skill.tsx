@@ -9,7 +9,7 @@ type Props = {
 const Skill = (props: Props) => {
   return (
     <div
-      className={`font-light mukta-font w-full flex flex-row items-center space-x-2 p-1 ${
+      className={`font-light mukta-font w-full flex flex-row items-center space-x-2 p-1 skills ${
         props.theme === "light" ? "text-neutral-700" : "text-neutral-300"
       }`}>
       {props.image && (
