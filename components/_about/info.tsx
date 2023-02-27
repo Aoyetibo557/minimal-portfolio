@@ -29,11 +29,11 @@ export const AboutInfo = () => {
   return (
     <div className="flex flex-col p-4 justify-evenly gap-5 ">
       <div
-        className={`flex flex-row space-x-10 justify-evenly  ${
+        className={`flex flex-row space-x-10 justify-evenly about-info  ${
           theme === "light" ? "bg-minimal-white" : "bg-minimal-black"
         }`}>
         <div
-          className={`w-2/4 flex flex-col space-y-10  ${
+          className={`w-2/4 flex flex-col space-y-10 about-headline  ${
             theme === "light" ? "bg-minimal-white" : "bg-minimal-black"
           }`}>
           <div
@@ -81,14 +81,14 @@ export const AboutInfo = () => {
             width={400}
             height={400}
             alt={""}
-            className="rounded-lg rotate-3"
+            className="rounded-lg rotate-3 about-image"
           />
         </div>
       </div>
 
-      <div className="flex flex-row gap-16 space-x-5">
+      <div className="flex flex-row gap-16 space-x-5 about-bottom">
         <div
-          className={`w-2/4 mb-4 ml-12 text-lg font-light mukta-font ${
+          className={`w-2/4 mb-4 ml-12 text-lg font-light mukta-font about-skills-container ${
             theme === "light" ? "text-neutral-900" : "text-neutral-100"
           }
         `}>

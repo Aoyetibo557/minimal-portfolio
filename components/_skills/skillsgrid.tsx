@@ -11,7 +11,7 @@ interface Skill {
 
 const SkillsGrid = ({ skills, theme }: Props) => {
   return (
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid grid-cols-3 gap-6 skills-grid">
       {skills?.map((skill, index) => (
         <Skill
           key={index}
