@@ -6,10 +6,10 @@ import { useContext } from "react";
 const Projects = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className="mt-5 pl-20 p-4 h-90">
+    <div className="mt-5 pl-20 p-4 h-90 projects">
       <div>
         <div
-          className={`w-3/4 font-extrabold text-4xl 
+          className={`w-3/4 font-extrabold text-4xl projects-headline
           ${theme === "light" ? "text-neutral-900" : "text-neutral-100"}
         `}>
           Things i've made while playing around with code and stuff, trying to
@@ -17,7 +17,7 @@ const Projects = () => {
         </div>
 
         <div
-          className={`mukta-font mt-5 w-3/4 font-light text-lg
+          className={`mukta-font mt-5 w-3/4 font-light text-lg projects-subheadline
           ${theme === "light" ? "text-neutral-900" : "text-neutral-400"}
         `}>
           I've worked on tons of projects over the years but these are the ones
@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="p-5">
+      <div className="p-5 projectgrid-container">
         <ProjectGrid projects={projects} theme={theme} />
       </div>
     </div>
