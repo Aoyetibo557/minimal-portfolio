@@ -27,13 +27,13 @@ export const projects: Project[] = [
     tech: ["React", "CSS", "JAVASCRIPT"],
   },
   {
-    title: "Rock Paper Scissors",
+    title: "Thoughts App",
     description:
-      "A simple rock paper scissors game that uses the DOM to generate random moves.",
+      "A full stack app that allows users to post their thoughts and read other users thoughts.",
     image: "/static/images/rock.png",
     link: "",
-    github: "https://github.com/Aoyetibo557/Rock-Paper-Scissors",
-    tech: ["HTML", "CSS", "JAVASCRIPT"],
+    github: "https://github.com/Aoyetibo557/thoughts-app",
+    tech: ["React", "Firebase", "JAVASCRIPT"],
   },
 
   {
