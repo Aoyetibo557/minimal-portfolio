@@ -45,7 +45,7 @@ a {
   }
 }  */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
   /* layout */
 
   .responsive-layout {
@@ -145,5 +145,32 @@ a {
   /* workbox styles */
   .work-date {
     opacity: 0.5;
+  }
+
+  /* projects page styles */
+  .projects {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .projects-headline {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .projects-subheadline {
+    width: 100%;
+  }
+
+  .projectgrid-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .projectgrid {
+    width: 100%;
   }
 }
