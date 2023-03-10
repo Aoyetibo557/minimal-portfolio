@@ -9,6 +9,15 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Tassker App",
+    description:
+      "A full stack app that allows users to create tasks for themselves using a board system. Users can also create boards and add tasks to them. It has a custom API and a firestore database.",
+    image: "/static/images/taskimage.png",
+    link: "https://task-manager-client-nu.vercel.app/login",
+    github: "https://github.com/Aoyetibo557/task-manager-client",
+    tech: ["NextJs", "TypeScript", "TailwindCSS", "Firebase"],
+  },
+  {
     title: "Advice Generator",
     description:
       "A simple advice generator that uses an API to generate random advice.",
