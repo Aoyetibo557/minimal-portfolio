@@ -27,7 +27,7 @@ const Home = () => {
         
         `}>
           {
-            "I'm Anuoluwapo, a software developer based in New York City. I'm currently looking for new opportunities. I'm a fullstack developer with a passion for building beautiful and functional web applications. I'm also a musician (piano and guitar), photographer and amateur gamer."
+            "I'm Anuoluwapo, a software developer currently looking for new opportunities as an experienced fullstack developer with a passion for building beautiful and functional web applications. I'm also a musician (piano and guitar), photographer and amateur gamer."
           }
         </span>
 

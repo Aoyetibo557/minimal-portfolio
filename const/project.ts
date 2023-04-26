@@ -9,11 +9,20 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "CryptoIO",
+    description:
+      "A web app that displays the current price and other relevant information of cryptocurrencies.",
+    image: "/static/images/cryptoio.png",
+    link: "https://cryptoio.vercel.app/",
+    github: "https://github.com/Aoyetibo557/cryptoio",
+    tech: ["NextJs", "TypeScript", "TailwindCSS", "CoinGecko API"],
+  },
+  {
     title: "Tassker App",
     description:
-      "A full stack app that allows users to create tasks for themselves using a board system. Users can also create boards and add tasks to them. It has a custom API and a firestore database.",
+      "Task Management Platform that allows users to create, update and delete tasks.",
     image: "/static/images/taskimage.png",
-    link: "https://task-manager-client-nu.vercel.app/login",
+    link: "https://task-manager-client-nu.vercel.app",
     github: "https://github.com/Aoyetibo557/task-manager-client",
     tech: ["NextJs", "TypeScript", "TailwindCSS", "Firebase"],
   },
@@ -22,7 +31,7 @@ export const projects: Project[] = [
     description:
       "A simple advice generator that uses an API to generate random advice.",
     image: "/static/images/generator.png",
-    link: "https://advice-generator.vercel.app/",
+    link: "https://advice-gen-jezw2njji-aoyetibo557.vercel.app/",
     github: "https://github.com/Aoyetibo557/Advice-Generator-FrontendMentor-",
     tech: ["React", "CSS", "JAVASCRIPT"],
   },

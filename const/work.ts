@@ -10,12 +10,12 @@ export const workhistory: Work[] = [
   {
     name: "CertiK",
     worktitle: "Full Stack Developer Associate",
-    date: "2022 - Present",
+    date: "2022 - 2023",
     image: "/static/images/certik.jpg",
   },
   {
     name: "Cuny Tech Prep",
-    worktitle: "Full Stack Developer Apprentice",
+    worktitle: "Full Stack Developer",
     date: "2021 - 2022",
     image: "/static/images/cunyprep.jpg",
   },
