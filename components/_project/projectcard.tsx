@@ -14,7 +14,7 @@ type Props = {
 export const ProjectCard = (props: Props) => {
   return (
     <a
-      href={props.github}
+      href={props.link === "" ? props.github : props.link}
       target="_blank"
       rel="noreferrer"
       className={`flex p-5 cursor-pointer rounded-xl flex-col justify-between h-full
@@ -57,7 +57,7 @@ export const ProjectCard = (props: Props) => {
               : "text-neutral-400 hover:text-neutral-100"
           }`}>
           <BsLink45Deg className={`inline-block mr-2`} />
-          <span>github.com</span>
+          <span>{props.link === "" ? "github.com" : props.link}</span>
         </div>
       </div>
     </a>
