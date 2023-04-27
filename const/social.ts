@@ -16,12 +16,12 @@ export const socialLinks: SocialLink[] = [
     text: "Follow me on Github",
   },
   {
-    href: "https://www.twitter.com/aoyetibo557",
+    href: "https://twitter.com/gabeoyetibo557",
     icon: "twitter",
     text: "Follow me on Twitter",
   },
   {
-    href: "https://www.instagram.com/aoyetibo557",
+    href: "https://www.instagram.com/gahbby_557/",
     icon: "instagram",
     text: "Follow me on Instagram",
   },
