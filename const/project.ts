@@ -9,6 +9,15 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Github Repo Finder",
+    description:
+      "A web app that allows users to search for github repositories and view the details of the repository using the Github API.",
+    image: "/static/images/git.png",
+    link: "https://golinkhack-anu.vercel.app/",
+    github: "https://github.com/Aoyetibo557/golinkhack-anu",
+    tech: ["NextJs", "ReactJS", "TailwindCSS", "Github API"],
+  },
+  {
     title: "CryptoIO",
     description:
       "A web app that displays the current price and other relevant information of cryptocurrencies.",
