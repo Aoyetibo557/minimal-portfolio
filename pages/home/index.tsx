@@ -14,6 +14,8 @@ const Home = () => {
     <div className="flex flex-col gap-10 pl-20 p-5 homepage">
       <div className="flex flex-col gap-5 w-3/4 responsive-home">
         <span
+          title="Anuoluwapo Oyetibo"
+          arai-label="Anuoluwapo Oyetibo (Introduction)"
           className={`homepage-h2 text-5xl font-bold mukta-font
           ${theme === "light" ? "text-neutral-900" : "text-neutral-200"}
         `}>
@@ -22,6 +24,8 @@ const Home = () => {
         </span>
 
         <span
+          title="Anuoluwapo Oyetibo"
+          arai-label="Anuoluwapo Oyetibo (Introduction)"
           className={`homepage-h3 text-lg font-light mukta-font
           ${theme === "light" ? "text-neutral-700" : "text-neutral-400"}
         
@@ -33,6 +37,8 @@ const Home = () => {
 
         <div className="flex flex-row gap-8 mt-3">
           <a
+            title="Twitter"
+            arai-label="Twitter"
             className={`
             ${
               theme === "light"
@@ -45,6 +51,8 @@ const Home = () => {
           </a>
 
           <a
+            title="Instagram"
+            arai-label="Instagram"
             className={`
             ${
               theme === "light"
@@ -57,6 +65,8 @@ const Home = () => {
           </a>
 
           <a
+            title="Github"
+            arai-label="Github"
             className={`
             ${
               theme === "light"
@@ -69,6 +79,8 @@ const Home = () => {
           </a>
 
           <a
+            title="LinkedIn"
+            arai-label="LinkedIn"
             className={`
             ${
               theme === "light"
@@ -117,10 +129,16 @@ const Home = () => {
       </div>
 
       <div className="flex flex-row gap-10 justify-between homepage-bottom">
-        <div className="w-3/4 homepage-comments">
+        <div
+          title="Comments"
+          arai-label="Comments"
+          className="w-3/4 homepage-comments">
           <CommentList comments={commentlist} theme={theme} />
         </div>
-        <div className="flex flex-col gap-10">
+        <div
+          title="Contact"
+          arai-label="Contact"
+          className="flex flex-col gap-10">
           <ContactBox theme={theme} />
           <WorkBox theme={theme} worklist={workhistory} />
         </div>

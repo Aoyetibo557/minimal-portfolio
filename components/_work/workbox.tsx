@@ -39,6 +39,7 @@ export const WorkBox = ({ theme, worklist }: Props) => {
       ))}
       <div className="flex flex-row items-center justify-center">
         <button
+          disabled={true}
           className={`font-medium mukta-font text-base p-1 w-40 rounded-lg ${
             theme === "light"
               ? "text-neutral-500 border-[0.5px] border-neutral-500 hover:text-neutral-600 "
