@@ -8,12 +8,15 @@ type WorkProps = {
   worktitle: string;
   name: string;
   date: string;
+  href?: string;
 };
 export const Work = (props: WorkProps) => {
   return (
     <div className="flex flex-row items-center justify-between">
       <div className="flex flex-row items-center gap-4">
         <Image
+          title={props.name}
+          arai-label={props.name}
           src={props.image}
           alt="logo"
           width={50}
@@ -21,26 +24,38 @@ export const Work = (props: WorkProps) => {
           className="rounded-full scale-75"
         />
 
-        <div className="flex flex-col">
+        <a
+          href={props.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col">
           <span
-            className={`font-bold mukta-font text-base
-            ${props.theme === "light" ? "text-neutral-800" : "text-neutral-300"}
+            title={props.name}
+            arai-label={props.name}
+            className={`font-bold mukta-font text-sm hover:text-blue-400
+            ${
+              props.theme === "light" ? "text-neutral-800" : "text-neutral-300 "
+            }
           `}>
             {" "}
             {props.name}{" "}
           </span>
           <span
-            className={`font-light mukta-font text-base
+            title={props.worktitle}
+            arai-label={props.worktitle}
+            className={`font-light mukta-font text-sm
             ${props.theme === "light" ? "text-neutral-500" : "text-neutral-400"}
           `}>
             {" "}
             {props.worktitle}{" "}
           </span>
-        </div>
+        </a>
       </div>
 
       <div
-        className={`font-light mukta-font text-base work-date
+        title={props.date}
+        arai-label={props.date}
+        className={`font-light mukta-font text-sm work-date
           ${props.theme === "light" ? "text-neutral-800" : "text-neutral-200"}
         `}>
         {props.date}

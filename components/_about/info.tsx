@@ -41,17 +41,19 @@ export const AboutInfo = () => {
               theme === "light" ? "text-neutral-900" : "text-neutral-200"
             }`}>
             <span className={`text-5xl`}>👋🏽</span> Hi, I'm{" "}
-            <span className="gloock-font text-alt-blue text-3xl font-bold">
+            <span className="gloock-font text-blue-300 text-3xl font-bold">
               Anuoluwapo Oyetibo
             </span>{" "}
             it's pronounced{" "}
             <span className="gloock-font text-alt-pink text-1xl hover:shadow-lg  hover:rounded-md ">
               "ha-nu-o-lu-wa-puh".
             </span>{" "}
-            I live in NYC and I love to build things for the web.
+            I love to build things for the web.
           </div>
 
           <div
+            title="Information About me"
+            arai-label="Information About me"
             className={` mukta-font text-lg font-light ${
               theme === "light" ? "text-neutral-900" : "text-neutral-400"
             }`}>
@@ -77,6 +79,8 @@ export const AboutInfo = () => {
 
         <div>
           <Image
+            title="Ai Generated Image "
+            arai-label="Ai Generated Image "
             src="/static/images/aboutImage.JPG"
             width={400}
             height={400}
