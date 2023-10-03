@@ -18,6 +18,15 @@ export const projects: Project[] = [
     tech: ["NextJs", "ReactJS", "TailwindCSS", "Github API"],
   },
   {
+    title: "Tassker App",
+    description:
+      "Task Management Platform that allows users to create, update and delete tasks. V2 coming soon!",
+    image: "/static/images/taskimage.png",
+    link: "https://task-manager-client-nu.vercel.app",
+    github: "https://github.com/Aoyetibo557/task-manager-client",
+    tech: ["NextJs", "TypeScript", "TailwindCSS", "Firebase"],
+  },
+  {
     title: "CryptoIO",
     description:
       "A web app that displays the current price and other relevant information of cryptocurrencies.",
@@ -26,15 +35,7 @@ export const projects: Project[] = [
     github: "https://github.com/Aoyetibo557/cryptoio",
     tech: ["NextJs", "TypeScript", "TailwindCSS", "CoinGecko API"],
   },
-  {
-    title: "Tassker App",
-    description:
-      "Task Management Platform that allows users to create, update and delete tasks.",
-    image: "/static/images/taskimage.png",
-    link: "https://task-manager-client-nu.vercel.app",
-    github: "https://github.com/Aoyetibo557/task-manager-client",
-    tech: ["NextJs", "TypeScript", "TailwindCSS", "Firebase"],
-  },
+
   {
     title: "Advice Generator",
     description:
