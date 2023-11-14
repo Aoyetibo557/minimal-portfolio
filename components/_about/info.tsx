@@ -59,16 +59,16 @@ export const AboutInfo = () => {
             }`}>
             I've loved building things for as long as I can remember. My passion
             for building things has led me to a career in software engineering.
-            My most recent role was as a Full stack Developer Associate at{" "}
+            My most recent role was as a Frontend developer at{" "}
             <span
               className={` ${
                 theme === "light" ? "text-neutral-800" : "text-minimal-white"
               } mukta-font text-lg font-semibold `}>
               <a
-                href="https://www.certik.com/"
+                href="https://www.golinks.io/"
                 target="_blank"
                 rel="noreferrer">
-                CertiK
+                GoLinks (YC W19)
               </a>
             </span>{" "}
             where I worked on multiple projects using Typescript, React,

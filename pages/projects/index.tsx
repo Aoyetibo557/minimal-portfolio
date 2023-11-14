@@ -19,7 +19,8 @@ const Projects = () => {
         <div
           className={`mukta-font mt-5 w-3/4 font-light text-lg projects-subheadline
           ${theme === "light" ? "text-neutral-900" : "text-neutral-400"}
-        `}>
+        `}
+          title={`I've worked on tons of projects over the years but these are the ones that...`}>
           I've worked on tons of projects over the years but these are the ones
           that I'm most proud of. If you see something that piques your
           interest, feel free to click on it and play around. The code and live

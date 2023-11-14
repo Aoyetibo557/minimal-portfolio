@@ -12,7 +12,7 @@ export const projects: Project[] = [
     title: "Map Markers",
     description:
       "A web app that allows users to search for locations and view the results on a map. The application is built using Next.js, TypeScript, Tailwind CSS, Redux Toolkit, and Leaflet. ",
-    image: "/static/images/git.png",
+    image: "/static/images/map.png",
     link: "https://anu-ground-signal-test.vercel.app/",
     github: "https://github.com/Aoyetibo557/Map-Markers",
     tech: ["NextJs", "TypeScript", "TailwindCSS", "Leaflet"],
