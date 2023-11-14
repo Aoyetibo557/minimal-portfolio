@@ -11,14 +11,14 @@ export const workhistory: Work[] = [
   {
     name: "GoLinks",
     worktitle: "Frontend Developer",
-    date: "June 2022 - Present",
+    date: "June 2023 - Sept 2023",
     image: "/static/images/golinksLogo.jpg",
     href: "https://golinks.io/",
   },
   {
     name: "CertiK",
     worktitle: "Full Stack Developer Associate",
-    date: "Nov 2021 - Feb 2022",
+    date: "Nov 2022 - Feb 2023",
     image: "/static/images/certik.jpg",
     href: "https://www.certik.com/",
   },

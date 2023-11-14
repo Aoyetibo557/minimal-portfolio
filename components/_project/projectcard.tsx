@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BsLink45Deg } from "react-icons/bs";
+import { truncateString } from "../Utility/hooks/utils";
 
 type Props = {
   title: string;
@@ -37,7 +38,9 @@ export const ProjectCard = (props: Props) => {
         <div
           className={`mukta-font font-medium text-lg ${
             props.theme === "light" ? "text-neutral-700" : "text-neutral-200"
-          }`}>
+          }`}
+          title={props.title}
+          aria-label={props.title}>
           {props.title}
         </div>
       </div>
@@ -45,8 +48,10 @@ export const ProjectCard = (props: Props) => {
         <div
           className={`mukta-font font-light text-base ${
             props.theme === "light" ? "text-neutral-700" : "text-neutral-400"
-          }`}>
-          {props.description}
+          }`}
+          title={props.description}
+          aria-label={props.description}>
+          {truncateString(props.description, 75)}
         </div>
       </div>
       <div className="mt-5">
@@ -57,7 +62,9 @@ export const ProjectCard = (props: Props) => {
               : "text-neutral-400 hover:text-neutral-100"
           }`}>
           <BsLink45Deg className={`inline-block mr-2`} />
-          <span>{props.link === "" ? "github.com" : props.link}</span>
+          <span title={props.link} aria-label={props.link}>
+            {props.link === "" ? "github.com" : truncateString(props.link, 25)}
+          </span>
         </div>
       </div>
     </a>
