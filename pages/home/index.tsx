@@ -31,7 +31,7 @@ const Home = () => {
         
         `}>
           {
-            "I'm Anuoluwapo, a software developer currently looking for new opportunities as an experienced fullstack developer with a passion for building beautiful and functional web applications. I'm also a musician (piano and guitar), photographer and amateur gamer."
+            "Hello, I'm Anuoluwapo, an experienced full-stack developer passionate about crafting beautiful and functional web applications. Outside of coding, I'm also a musician (piano and guitar), photographer, and amateur gamer. With a diverse skill set and a drive for creativity, I excel at delivering innovative solutions and impactful experiences in the digital realm."
           }
         </span>
 

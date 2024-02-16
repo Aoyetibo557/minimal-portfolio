@@ -37,7 +37,7 @@ export const WorkBox = ({ theme, worklist }: Props) => {
       {worklist.map((work, index) => (
         <Work key={index} {...work} theme={theme} />
       ))}
-      <div className="flex flex-row items-center justify-center">
+      {/* <div className="flex flex-row items-center justify-center">
         <button
           disabled={true}
           className={`font-medium mukta-font text-base p-1 w-40 rounded-lg ${
@@ -48,7 +48,7 @@ export const WorkBox = ({ theme, worklist }: Props) => {
         `}>
           Download CV <span className="text-neutral-500 text-sm">(PDF)</span>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
