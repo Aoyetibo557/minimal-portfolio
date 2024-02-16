@@ -17,6 +17,7 @@ export const Skills = {
   JAVA: "Java",
   NEXTJS: "NextJS",
   TAILWINDCSS: "TailwindCSS",
+  CHATGPT: "Chat GPT-3",
 };
 
 interface Skills {
@@ -25,6 +26,10 @@ interface Skills {
 }
 
 export const skillsarray: Skills[] = [
+  {
+    title: Skills.CHATGPT,
+    image: "/static/images/chatgpt.png",
+  },
   {
     title: Skills.TYPESCRIPT,
     image: "/static/images/typescript.png",

@@ -9,6 +9,15 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "AIGOD",
+    description:
+      "An interactive AI chatbot gives advice while quoting parables from multiple religions. Built using Chat GPT, React.js, CSS & others ",
+    image: "/static/images/aigod_logo.png",
+    link: "https://aigod.ai/chattest",
+    github: "https://github.com/Aoyetibo557/AIGOD",
+    tech: ["Chat GPT 3", "ReactJs", "TypeScript", "TailwindCSS"],
+  },
+  {
     title: "Map Markers",
     description:
       "A web app that allows users to search for locations and view the results on a map. The application is built using Next.js, TypeScript, Tailwind CSS, Redux Toolkit, and Leaflet. ",
