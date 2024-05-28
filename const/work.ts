@@ -8,13 +8,13 @@ interface Work {
 }
 
 export const workhistory: Work[] = [
-  // {
-  //   name: "FlxLease",
-  //   worktitle: "Full Stack Developer",
-  //   date: "Jan 2024 - present",
-  //   image: "/static/images/flxlease.png",
-  //   href: "https://flxlease.com/",
-  // },
+  {
+    name: "FlxLease",
+    worktitle: "Full Stack Developer",
+    date: "Jan 2024 - present",
+    image: "/static/images/flxlease.png",
+    href: "https://flxlease.com/",
+  },
   {
     name: "GoLinks",
     worktitle: "Frontend Developer Intern",

@@ -94,7 +94,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-5 mt-4 homepage-image-container">
+      {/* <div className="grid grid-cols-4 gap-5 mt-4 homepage-image-container">
         <Image
           src={"/static/images/imageFour.jpg"}
           alt="logo"
@@ -126,7 +126,7 @@ const Home = () => {
           height={200}
           className="rounded-md homepage-image "
         />
-      </div>
+      </div> */}
 
       <div className="flex flex-row gap-10 justify-between homepage-bottom">
         <div

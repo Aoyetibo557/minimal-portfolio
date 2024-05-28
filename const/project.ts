@@ -9,13 +9,22 @@ interface Project {
 
 export const projects: Project[] = [
   {
-    title: "AIGOD",
+    title: "AIGOD (Epikavios)",
     description:
       "An interactive AI chatbot gives advice while quoting parables from multiple religions. Built using Chat GPT, React.js, CSS & others ",
     image: "/static/images/aigod_logo.png",
     link: "https://aigod.ai/chattest",
     github: "https://github.com/Aoyetibo557/AIGOD",
     tech: ["Chat GPT 3", "ReactJs", "TypeScript", "TailwindCSS"],
+  },
+  {
+    title: "Wanderwith",
+    description:
+      "An interactive AI chatbot gives advice while quoting parables from multiple religions. Built using Chat GPT, React.js, CSS & others ",
+    image: "/static/images/wanderwith.png",
+    link: "https://wanderwith.io",
+    github: "https://github.com/Aoyetibo557",
+    tech: ["ReactJs", "React-query", "TailwindCSS"],
   },
   {
     title: "Map Markers",
@@ -82,12 +91,12 @@ export const projects: Project[] = [
     tech: ["React", "Firebase", "JAVASCRIPT"],
   },
 
-  {
-    title: "African Marketplace",
-    description: "A web store for an african market/shop.",
-    image: "/static/images/shop.png",
-    link: "",
-    github: "https://github.com/Aoyetibo557/foody-web-app",
-    tech: ["React", "CSS", "JAVASCRIPT"],
-  },
+  // {
+  //   title: "African Marketplace",
+  //   description: "A web store for an african market/shop.",
+  //   image: "/static/images/shop.png",
+  //   link: "",
+  //   github: "https://github.com/Aoyetibo557/foody-web-app",
+  //   tech: ["React", "CSS", "JAVASCRIPT"],
+  // },
 ];
