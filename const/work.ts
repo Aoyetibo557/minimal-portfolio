@@ -16,6 +16,13 @@ export const workhistory: Work[] = [
     href: "https://flxlease.com/",
   },
   {
+    name: "Wanderwith",
+    worktitle: "Founding Engineer (CTO)",
+    date: "Nov 2023 - May 2024",
+    image: "/static/images/wanderwith.png",
+    href: "https://wanderwith.io/",
+  },
+  {
     name: "GoLinks",
     worktitle: "Frontend Developer Intern",
     date: "June 2023 - Sept 2023",
