@@ -1,6 +1,7 @@
 export const Skills = {
   TYPESCRIPT: "TypeScript",
   REACT: "React",
+  EXPO: "Expo",
   ANGULAR: "Angular",
   JAVASCRIPT: "JavaScript",
   HTML: "HTML",
@@ -29,6 +30,10 @@ export const skillsarray: Skills[] = [
   {
     title: Skills.CHATGPT,
     image: "/static/images/chatgpt.png",
+  },
+  {
+    title: Skills.EXPO,
+    image: "/static/images/expo.png",
   },
   {
     title: Skills.TYPESCRIPT,

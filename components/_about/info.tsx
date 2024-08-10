@@ -53,34 +53,34 @@ export const AboutInfo = () => {
 
           <div
             title="Information About me"
-            arai-label="Information About me"
+            aria-label="Information About me"
             className={` mukta-font text-lg font-light ${
               theme === "light" ? "text-neutral-900" : "text-neutral-400"
             }`}>
             I've loved building things for as long as I can remember. My passion
             for building things has led me to a career in software engineering.
-            My most recent role was as a Frontend developer at{" "}
-            <span
-              className={` ${
-                theme === "light" ? "text-neutral-800" : "text-minimal-white"
-              } mukta-font text-lg font-semibold `}>
-              <a
-                href="https://www.golinks.io/"
-                target="_blank"
-                rel="noreferrer">
-                GoLinks (YC W19)
-              </a>
-            </span>{" "}
-            where I worked on multiple projects using Typescript, React,
-            Next.js, Node.js, and GraphQL, AWS and more. I'm currently looking
-            for a new role where I can continue to grow and learn.
+            I have worked on multiple projects from web applications to mobile
+            application using Typescript, React, React native expo, Next.js,
+            Node.js, Express, Firebase, PostGres, Supabase, GraphQL, AWS and
+            more. I want to take on intresting and challenging work. If I sound
+            like some one you'd be intrested in talking to, feel free to reach
+            out.{" "}
+          </div>
+          <div
+            title="↑↑↓↓←→←→enter"
+            aria-label="↑↑↓↓←→←→enter"
+            className={`text-lg mukta-font font-medium ${
+              theme === "light" ? "text-neutral-900" : "text-neutral-400"
+            } `}>
+            PS - You wanna see something cool? While on this page, use the "
+            <span className="glitch font-semibold">KONAMI</span>" code
           </div>
         </div>
 
         <div>
           <Image
-            title="Ai Generated Image "
-            arai-label="Ai Generated Image "
+            title="AI Generated Image "
+            arai-label="AI Generated Image "
             src="/static/images/aboutImage.JPG"
             width={400}
             height={400}

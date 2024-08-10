@@ -9,30 +9,30 @@ interface Comment {
 export const commentlist: Comment[] = [
   {
     image: "/static/images/js.png",
-    name: "Jacob Taylor",
+    name: "(FLXlease)",
     comment:
-      "He is a valuable team player, consistently collaborating effectively with team members. He actively participates in team discussions, shares valuable insights, and is always willing to assist others. His positive attitude and strong interpersonal skills enhance the overall team dynamics.",
-    date: "September 12, 2023",
+      "He is an exceptional team player who consistently demonstrates strong collaboration skills. He actively engages in team discussions, contributing valuable insights and fostering a supportive environment. His positive attitude and excellent interpersonal skills significantly enhance team dynamics, making him an asset to any team.",
+    date: "May 21, 2024",
   },
   {
     image: "/static/images/js.png",
-    name: "Anonymous",
+    name: "(GoLinks)",
     comment:
-      "Anu consistently demonstrates exceptional problem-solving skills. In the past few months, faced with a complex issue in chrome extension development, he adeptly analyzed the situation, created a plan of action and implemented a robust solution. This ability to troubleshoot and resolve issues efficiently significantly contributed to the success of the project",
-    date: "Spetember 01, 2023",
+      "Anu consistently exhibits outstanding problem-solving abilities. Recently, when confronted with a complex challenge in Chrome extension development, he skillfully analyzed the situation, developed a strategic plan, and implemented a robust solution. His ability to troubleshoot and resolve issues efficiently was a key factor in the project's success",
+    date: "Spetember 29, 2023",
   },
   {
     image: "/static/images/js.png",
-    name: "Ethan Prince",
+    name: "(GoLinks)",
     comment:
-      "Anu has shown remarkable adaptability in learning new technologies and frameworks. In the recent integration of TypeScript and NextJs, he quickly acquired the necessary skills and successfully implemented several features within the project timeline. His eagerness to stay updated on industry trends is commendable.",
-    date: "Febuary 14, 2023",
+      "Anu has demonstrated remarkable adaptability in mastering new technologies and frameworks. During the recent integration of TypeScript and Next.js, he swiftly acquired the necessary skills and successfully implemented several key features within the project timeline. His proactive approach to staying current with industry trends is truly commendable.",
+    date: "September 20, 2023",
   },
   {
     image: "/static/images/js.png",
-    name: "Temuulen Erdenekhuu",
+    name: "(Certik)",
     comment:
-      "He shows a lot of initiative and is always willing to learn new things. He always meets his deadlines and communicates changes to schedule if there is a need.",
+      "He consistently shows initiative and a strong willingness to learn new skills. He reliably meets deadlines and proactively communicates any necessary adjustments to the schedule, ensuring smooth project progress.",
     date: "Febuary 11, 2022",
   },
 ];

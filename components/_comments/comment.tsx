@@ -11,7 +11,7 @@ type Props = {
 export const Comment = ({ theme, image, name, comment, date }: Props) => {
   return (
     <div
-      className={`flex flex-col gap-4 rounded-xl p-4 w-4/5 comment-box
+      className={`flex flex-col gap-2 rounded-xl p-4 w-4/5 comment-box
     ${theme === "light" ? "text-neutral-800" : "text-neutral-200"}
     `}>
       <div className="">
@@ -21,7 +21,7 @@ export const Comment = ({ theme, image, name, comment, date }: Props) => {
           }
         `}>
           <span
-            className={`font-bold text-xl mr-3 ${
+            className={`font-bold text-xl mr-2 ${
               theme === "light" ? "text-neutral-500" : "text-neutral-500"
             }
           `}>
