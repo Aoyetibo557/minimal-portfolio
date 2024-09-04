@@ -13,7 +13,8 @@ const Footer = () => {
         <FooterNavbar />
       </div>
       <div className="text-sm font-light text-neutral-500">
-        &copy; 2024 Anuoluwapo Oyetibo. All rights reserved.
+        &copy; {new Date().getFullYear()} Anuoluwapo Oyetibo. All rights
+        reserved.
       </div>
     </div>
   );
