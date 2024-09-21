@@ -13,7 +13,7 @@ export const projects: Project[] = [
     description:
       "A web app that allows users to search for github repositories and view the details of the repository using the Github API.",
     image: "/static/images/git.png",
-    link: "https://golinkhack-anu.vercel.app/",
+    link: "https://devhub-anu.vercel.app/",
     github: "https://github.com/Aoyetibo557/golinkhack-anu",
     tech: ["NextJs", "ReactJS", "TailwindCSS", "Github API"],
   },
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     description:
       "A web app that allows users to search for locations and view the results on a map. The application is built using Next.js, TypeScript, Tailwind CSS, Redux Toolkit, and Leaflet. ",
     image: "/static/images/map.png",
-    link: "https://anu-ground-signal-test.vercel.app/",
+    link: "https://mapmarkers.vercel.app/",
     github: "https://github.com/Aoyetibo557/Map-Markers",
     tech: ["NextJs", "TypeScript", "TailwindCSS", "Leaflet"],
   },
