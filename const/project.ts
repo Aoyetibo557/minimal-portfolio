@@ -9,6 +9,14 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "AfroStyles API",
+    description:
+      "A RESTful API that provides a collection of african fashion and designers. Built with Node.js, Express, PostGress and Supabase.",
+    image: "/static/images/afrostyles-text-nobg.png",
+    link: "https://afrostylesapi-anuoluwapos-projects-34fe3541.vercel.app/",
+    github: "https://github.com/Aoyetibo557/AfroStyles-BE",
+  },
+  {
     title: "Github Repo Finder",
     description:
       "A web app that allows users to search for github repositories and view the details of the repository using the Github API.",
@@ -35,6 +43,24 @@ export const projects: Project[] = [
     github: "https://github.com/Aoyetibo557/Map-Markers",
     tech: ["NextJs", "TypeScript", "TailwindCSS", "Leaflet"],
   },
+
+  {
+    title: "Tassker App",
+    description:
+      "Task Management Platform that allows users to create, update and delete tasks. V2 coming soon!",
+    image: "/static/images/taskimage.png",
+    link: "https://task-manager-client-nu.vercel.app",
+    github: "https://github.com/Aoyetibo557/task-manager-client",
+    tech: ["NextJs", "TypeScript", "TailwindCSS", "Firebase"],
+  },
+  {
+    title: "Tassker API",
+    description:
+      "A RESTful API that provides a collection of tasks and users. Built with Node.js, Express, PostGress and Supabase.",
+    image: "/static/images/taskimage.png",
+    link: "https://task-manager-api-dun.vercel.app/",
+    github: "https://github.com/Aoyetibo557/task-manager-api",
+  },
   {
     title: "AIGOD (Epikavios)",
     description:
@@ -45,15 +71,15 @@ export const projects: Project[] = [
     tech: ["Chat GPT 3", "ReactJs", "TypeScript", "TailwindCSS"],
   },
 
-  // {
-  //   title: "Wanderwith",
-  //   description:
-  //     "Find travel companions and trips that aligns with your intrest. Sit back relax and let us take care of the planning for you.",
-  //   image: "/static/images/wanderwith.png",
-  //   link: "https://wanderwith.io",
-  //   github: "https://github.com/Aoyetibo557",
-  //   tech: ["ReactJs", "React-query", "TailwindCSS"],
-  // },
+  {
+    title: "Wanderwith",
+    description:
+      "Find travel companions and trips that aligns with your intrest. Sit back relax and let us take care of the planning for you.",
+    image: "/static/images/wanderwith.png",
+    link: "https://wanderwith.io",
+    github: "https://github.com/Aoyetibo557",
+    tech: ["ReactJs", "React-query", "TailwindCSS"],
+  },
 
   {
     title: "Tassker App",
