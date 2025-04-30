@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BsLink45Deg } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { truncateString } from "../Utility/hooks/utils";
 
 type Props = {
@@ -14,11 +15,8 @@ type Props = {
 
 export const ProjectCard = (props: Props) => {
   return (
-    <a
-      href={props.link === "" ? props.github : props.link}
-      target="_blank"
-      rel="noreferrer"
-      className={`flex p-5 cursor-pointer rounded-xl flex-col justify-between h-full
+    <div
+      className={`flex p-5 rounded-xl flex-col justify-between h-full
       ${
         props.theme === "light"
           ? "hover:bg-light-white"
@@ -54,19 +52,38 @@ export const ProjectCard = (props: Props) => {
           {truncateString(props.description, 75)}
         </div>
       </div>
-      <div className="mt-5">
-        <div
-          className={`font-medium text-base mukta-font ${
+      <div className="mt-5 flex-wrap flex flex-row gap-2 content-center justify-between">
+        {props.link && props.link !== "" && (
+          <a
+            href={props.link}
+            target="_blank"
+            rel="noreferrer"
+            className={`block font-medium text-base mukta-font mb-2 ${
+              props.theme === "light"
+                ? "text-neutral-500 hover:text-neutral-800"
+                : "text-neutral-400 hover:text-neutral-100"
+            }`}>
+            <BsLink45Deg className={`inline-block mr-2 text-xl`} />
+            <span title={props.link} aria-label={props.link}>
+              {truncateString(props.link, 15)}
+            </span>
+          </a>
+        )}
+        <a
+          href={props.github}
+          target="_blank"
+          rel="noreferrer"
+          className={`block font-medium text-base mukta-font ${
             props.theme === "light"
               ? "text-neutral-500 hover:text-neutral-800"
               : "text-neutral-400 hover:text-neutral-100"
           }`}>
-          <BsLink45Deg className={`inline-block mr-2`} />
-          <span title={props.link} aria-label={props.link}>
-            {props.link === "" ? "github.com" : truncateString(props.link, 25)}
+          <BsGithub className={`inline-block mr-2 text-xl`} />
+          <span title={props.github} aria-label={props.github}>
+            {truncateString(props.github, 15)}
           </span>
-        </div>
+        </a>
       </div>
-    </a>
+    </div>
   );
 };
