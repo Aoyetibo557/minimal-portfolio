@@ -9,9 +9,7 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   const { theme } = useContext(ThemeContext);
-  useEffect(() => {
-    // Do something here
-  }, []);
+  
 
   return (
     <div className={`flex justify-center ${theme === "dark" && "bg-black"}`}>

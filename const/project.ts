@@ -9,6 +9,14 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "DataSift",
+    description:
+      "A web application that allows users to sift through data easily and clean it up. Built with Next.js, TypeScript and Tailwind CSS",
+    image: "",
+    link: "https://data-sift.vercel.app/",
+    github: "https://github.com/Aoyetibo557/DataSift",
+  },
+  {
     title: "AfroStyles API",
     description:
       "A RESTful API that provides a collection of african fashion and designers. Built with Node.js, Express, PostGress and Supabase.",
@@ -81,15 +89,6 @@ export const projects: Project[] = [
     tech: ["ReactJs", "React-query", "TailwindCSS"],
   },
 
-  {
-    title: "Tassker App",
-    description:
-      "Task Management Platform that allows users to create, update and delete tasks. V2 coming soon!",
-    image: "/static/images/taskimage.png",
-    link: "https://task-manager-client-nu.vercel.app",
-    github: "https://github.com/Aoyetibo557/task-manager-client",
-    tech: ["NextJs", "TypeScript", "TailwindCSS", "Firebase"],
-  },
   // {
   //   title: "CryptoIO",
   //   description:
