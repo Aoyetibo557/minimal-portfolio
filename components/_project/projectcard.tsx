@@ -16,7 +16,7 @@ type Props = {
 export const ProjectCard = (props: Props) => {
   return (
     <div
-      className={`flex p-5 rounded-xl flex-col justify-between h-full
+      className={`flex p-5 rounded-xl flex-col justify-between h-full border-[1.5px] border-gray-500
       ${
         props.theme === "light"
           ? "hover:bg-light-white"
@@ -24,22 +24,26 @@ export const ProjectCard = (props: Props) => {
       }
     `}>
       <div>
-        <Image
+       {props.image && (
+         <Image
           src={props.image}
           alt={props.title}
           width={40}
           height={40}
           // className="rounded-full border-[0.5px] border-gray-200"
         />
+       )}
       </div>
       <div className="mt-5">
         <div
-          className={`mukta-font font-medium text-lg ${
+          className={`mukta-font font-medium text-lg hover:underline ${
             props.theme === "light" ? "text-neutral-700" : "text-neutral-200"
           }`}
           title={props.title}
           aria-label={props.title}>
-          {props.title}
+          <a href={props.link} target="_blank" rel="noreferrer">
+            {props.title}
+          </a>
         </div>
       </div>
       <div className="mt-5">
@@ -53,22 +57,7 @@ export const ProjectCard = (props: Props) => {
         </div>
       </div>
       <div className="mt-5 flex-wrap flex flex-row gap-2 content-center justify-between">
-        {props.link && props.link !== "" && (
-          <a
-            href={props.link}
-            target="_blank"
-            rel="noreferrer"
-            className={`block font-medium text-base mukta-font mb-2 ${
-              props.theme === "light"
-                ? "text-neutral-500 hover:text-neutral-800"
-                : "text-neutral-400 hover:text-neutral-100"
-            }`}>
-            <BsLink45Deg className={`inline-block mr-2 text-xl`} />
-            <span title={props.link} aria-label={props.link}>
-              {truncateString(props.link, 15)}
-            </span>
-          </a>
-        )}
+      
         <a
           href={props.github}
           target="_blank"
@@ -80,7 +69,7 @@ export const ProjectCard = (props: Props) => {
           }`}>
           <BsGithub className={`inline-block mr-2 text-xl`} />
           <span title={props.github} aria-label={props.github}>
-            {truncateString(props.github, 15)}
+            {truncateString(props.github, 30)}
           </span>
         </a>
       </div>

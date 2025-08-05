@@ -11,7 +11,7 @@ export const workhistory: Work[] = [
   {
     name: "FlxLease",
     worktitle: "Full Stack Developer",
-    date: "Sept 2023 - present",
+    date: "Sept 2023 - June 2025",
     image: "/static/images/flxlease.png",
     href: "https://flxlease.com/",
   },
