@@ -9,6 +9,13 @@ interface Work {
 
 export const workhistory: Work[] = [
   {
+    name: "Capital One",
+    worktitle: "Sr. Software Engineer",
+    date: "November 2025 - Present",
+    image: "/static/images/capone_logo.jpg",
+    href: "https://www.capitalone.com",
+  },
+  {
     name: "FlxLease",
     worktitle: "Full Stack Developer",
     date: "Sept 2023 - June 2025",
