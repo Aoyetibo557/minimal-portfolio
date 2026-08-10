@@ -23,4 +23,14 @@ describe('ThemeProvider', () => {
     fireEvent.click(button)
     expect(button).toHaveTextContent('light')
   })
+
+  it('provides a default theme and no-op toggle', () => {
+    render(<Consumer />)
+
+    const button = screen.getByRole('button')
+
+    expect(button).toHaveTextContent('light')
+    fireEvent.click(button)
+    expect(button).toHaveTextContent('light')
+  })
 })

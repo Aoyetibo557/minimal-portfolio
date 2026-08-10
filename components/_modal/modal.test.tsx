@@ -21,6 +21,28 @@ describe('Modal', () => {
     expect(toggle).toHaveBeenCalled()
   })
 
+  it('does not call toggle when clicking inside the modal content', async () => {
+    const toggle = jest.fn()
+    const { getByText } = render(
+      <Modal title="Hello" isOpen={true} toggle={toggle}>
+        Body
+      </Modal>
+    )
+
+    await userEvent.click(getByText('Body'))
+    expect(toggle).not.toHaveBeenCalled()
+  })
+
+  it('applies the light theme class', () => {
+    const { container } = render(
+      <Modal title="Hello" isOpen={true} toggle={jest.fn()} theme="light">
+        Body
+      </Modal>
+    )
+
+    expect(container.querySelector('.bg-light-white')).toBeInTheDocument()
+  })
+
   it('renders nothing when closed', () => {
     const toggle = jest.fn()
     const { queryByText } = render(
