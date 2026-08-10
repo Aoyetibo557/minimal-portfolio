@@ -48,4 +48,11 @@ describe('useKonamiCode', () => {
 
     expect(callback).not.toHaveBeenCalled()
   })
+
+  it('removes the keydown listener on unmount', () => {
+    const callback = jest.fn()
+    const { unmount } = renderHook(() => useKonamiCode(callback, 0))
+    unmount()
+    expect(callback).not.toHaveBeenCalled()
+  })
 })
